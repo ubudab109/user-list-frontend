@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import * as React from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Content from "./components/Content";
 import Sidebar from "./components/Sidebar";
 import "./assets/app.scss";
 
 const App: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = React.useState<Boolean>(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
