@@ -1,22 +1,15 @@
 ## REQUIRMENTS
-- PHP 8.0+
-- MYSQL
-- COMPOSER
-
+- NODE v20.10.0
+- NPM 10.4.0 OR YARN
+- TYPESCRIPT
+  
 ## INSTALLATIONS
-- RUN `COMPOSER INSTALL`
+- RUN `npm install`
 - CREATE FILE `.env` THEN COPY ALL VALUES FROM `.env.example`
-- ADJUST THE DATABASE CONFIGURATION WITH YOUR OWN
-- RUN `php artisan migrate` AND `php artisan db:seed` TO MIGRATE TABLE AND SEED DATA
+- ADJUST THE BACKEND URL FROM THIS REPOSITORY https://github.com/ubudab109/user-list-backend 
 
 ## HOW TO RUN?
-- RUN `php -S localhost:8000 -t public` THEN THIS PROJECT WILL RUN ON YOUR LOCAL WITH 8000 PORT e.g (http://localhost:8000)
-- IF WANT TO RUN UNIT TEST, YOU CAN RUN `/vendor/bin/phpunit`
-
-## API ENDPOINT
-#### THERE IS 2 ENDPOINT API FOR THIS APP THAT CAN BE ACCESSED
-- `http://localhost:8000/api/users` TO GET ALL USERS DATA
-- `http://localhost:8000/api/users/userId` TO GET SINGLE USER DATA BASED ON ID
+- RUN `npm run start` (BY DEFAULT, THIS APPLICATION WILL RUN ON PORT 3000)
 
 ## DEMO
-<a href="https://aone-backend.000webhostapp.com/" target="_blank">URL</a>
+<a href="https://main--aone-frontend.netlify.app/" target="_blank">URL</a>
